@@ -1,7 +1,7 @@
 import pygame
 import os
 from pygame.locals import *
-from endgame.questions import *
+from questions import *
 from random import randint
 import pygame.freetype
 

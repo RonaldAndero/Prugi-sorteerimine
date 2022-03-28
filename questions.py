@@ -1,4 +1,4 @@
-from endgame.question import Question
+from question import Question
 
 question1 = Question("Kuhu läheb Coca Cola purk?", "metall ja plastik", "Coca Cola purk käib metalli ja plastiku hulka")
 question2 = Question("Kuhu läheb krõpsupakk?", "metall ja plastik", "Krõpsupakk käib metalli ja plastiku hulka")

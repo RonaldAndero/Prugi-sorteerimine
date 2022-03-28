@@ -278,7 +278,7 @@ def draw_window_game_completed( user_text, oigeid):
 
     # health and name drawing
 
-    game_completed_text = PLAYER_TEXT_FONT.render("Mängur: " + str(user_text) + ", läbis mängu " + str(oigeid) + " punktiga", True, WHITE)
+    game_completed_text = PLAYER_TEXT_FONT.render(str(user_text) + " läbis mängu " + str(oigeid) + " punktiga", True, WHITE)
     SCREEN.blit(game_completed_text, ((WIDTH - game_completed_text.get_width())// 2, HEIGHT // 2))
     game_over_text = START_GAME_FONT.render("GAME COMPLETED", True, WHITE)
     SCREEN.blit(game_over_text, (WIDTH / 2 - game_over_text.get_width() / 2, (HEIGHT - 200) // 2 ))

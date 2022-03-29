@@ -14,6 +14,7 @@ pygame.font.init()
 WIDTH, HEIGHT = 1200, 630
 SCREEN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Sorteerimine")
+pygame.display.set_icon(pygame.image.load("trashcan.png"))
 FPS = 60
 TRASHWIDTH, TRASHHEIGHT = 200, 200
 

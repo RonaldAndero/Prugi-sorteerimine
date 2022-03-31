@@ -491,6 +491,9 @@ def main():
                             startgame = 1
 
         # Main screen, asking questions
+        # If all questions are asked, end screen
+        if number_question == len(koik_kusimused):
+            startgame = 3  
         if startgame == 1:
             if number_question == number_question:
                 hint = randomized_hint_list[number_question]
@@ -560,10 +563,6 @@ def main():
                 #sleep
                     # -------------------------------------------------------------------------------------------------
 
-
-        # If all questions are asked, end screen
-        if number_question == len(koik_kusimused):
-            startgame = 3
 
         # When game end, restart (GAME COMPLETED)
         if startgame == 3:
